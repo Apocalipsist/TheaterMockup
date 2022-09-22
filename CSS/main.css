@@ -3,7 +3,29 @@ body{
     border: 1px solid black;
 }
 
-.container{
+
+.container {
+    display: grid; 
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr; 
+    grid-template-rows: minmax(20px, 60px) minmax(150px, 400px) 40px 1.5fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "navbar navbar navbar navbar navbar navbar navbar"
+      "hero-image hero-image hero-image hero-image hero-image hero-image hero-image"
+      ". show-year show-year show-year show-year show-year ."
+      ". show-pic show-pic Show-info Show-info Button ."
+      "Footer Footer Footer Footer Footer Footer Footer"; 
+  }
+  .navbar { 
+    grid-area: navbar; }
+  .hero-image { grid-area: hero-image; }
+  .Button { grid-area: Button; }
+  .show-pic { grid-area: show-pic; }
+  .Show-info { grid-area: Show-info; }
+  .show-year { grid-area: show-year; }
+  .Footer { grid-area: Footer; }
+
+/* .container{
     min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 1fr 0fr 3fr 1fr 1fr;
@@ -13,7 +35,7 @@ body{
     "hero-image hero-image hero-image hero-image hero-image hero-image"
     ". show-pic . showtimes button ."
     ". show-pic . showtimes button .";
-}
+} */
 
 
 /* .container {
@@ -106,7 +128,6 @@ h4{
 }
 
 .showtimes, .show-pic, button{
-    margin-top: ;
 }
 
   .navbar a {
