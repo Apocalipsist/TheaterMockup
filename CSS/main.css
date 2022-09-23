@@ -243,7 +243,7 @@ h4 {
 
 .hero-image {
   grid-area: hero-image;
-  background-image: src=("./Images/theater-image-background.png");
+  background-image: url("../Images/theater-image-background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
