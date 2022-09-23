@@ -176,21 +176,21 @@ body {
   border-top: 1px solid black;
   display: flex;
   align-items: flex-start;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 .line2 {
   grid-area: line2;
   border-top: 1px solid black;
   display: flex;
   align-items: flex-start;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 .line3 {
   grid-area: line3;
   border-top: 1px solid black;
   display: flex;
   align-items: flex-start;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 /* .container{
